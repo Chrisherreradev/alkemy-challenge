@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class personaje {
+public class Personaje {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
