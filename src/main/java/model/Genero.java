@@ -21,5 +21,5 @@ public class Genero {
 	
 	@OneToMany
 	@JoinColumn(name="idPelicula")
-	PeliculaSerie peliculaSerie;
+	private PeliculaSerie peliculaSerie;
 }

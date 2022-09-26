@@ -26,9 +26,9 @@ public class PeliculaSerie {
 		
 		@OneToMany
 		@JoinColumn(name="idPersonaje")
-		Personaje personaje;
+		private Personaje personaje;
 		
 		@ManyToOne
 		@JoinColumn(name= "idGenero")
-		Genero genero;
+		private Genero genero;
 }

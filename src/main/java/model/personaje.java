@@ -24,5 +24,5 @@ public class Personaje {
 	
 	@ManyToOne
 	@JoinColumn(name="idPelicula")
-	PeliculaSerie peliculaSerie;
+	private PeliculaSerie peliculaSerie;
 }
