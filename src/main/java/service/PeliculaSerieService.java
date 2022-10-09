@@ -31,7 +31,7 @@ public PeliculaSerie save(PeliculaSerie peliculaSerie) {
 public List<PeliculaSerie>getByOrder(String orden){
 	if(orden.equals("ASC")) {
 		return peliculaSerieRepository.getAllByOrderAsc();
-	}else if(orden.equals("DES")) {
+	}else if(orden.equals("DESC")) {
 		return peliculaSerieRepository.getAllByOrderDesc();
 	}else {
 		return peliculaSerieRepository.getAll();
