@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -22,4 +24,5 @@ public class Genero {
 	@OneToMany
 	@JoinColumn(name="idPelicula")
 	private PeliculaSerie peliculaSerie;
+	private List<PeliculaSerie>peliculaSerieId;
 }
